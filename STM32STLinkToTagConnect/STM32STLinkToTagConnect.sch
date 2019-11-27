@@ -1,0 +1,167 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L connectors:3M_10_POS_PIN_HEADER_2.54 J2
+U 1 1 5DDDD506
+P 5200 3400
+F 0 "J2" H 5200 3775 50  0000 C CNN
+F 1 "3M_10_POS_PIN_HEADER_2.54" H 5200 3684 50  0000 C CNN
+F 2 "connectors:10_POS_shrouded_conn_3M" H 5050 2900 50  0001 C CNN
+F 3 "" H 5200 3400 50  0001 C CNN
+F 4 "30310-6002HB " H 5200 2800 50  0001 C CNN "manf#"
+	1    5200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L connectors:3M_20_POS_PIN_HEADER_2.54 J1
+U 1 1 5DDDDBF6
+P 5200 2100
+F 0 "J1" H 5200 2475 50  0000 C CNN
+F 1 "3M_20_POS_PIN_HEADER_2.54" H 5200 2384 50  0000 C CNN
+F 2 "connectors:20_POS_shrouded_conn_3M" H 5150 1000 50  0001 C CNN
+F 3 "" H 5200 2100 50  0001 C CNN
+F 4 "30320-6002HB " H 5250 900 50  0001 C CNN "manf#"
+	1    5200 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3250 4950 3250
+Wire Wire Line
+	4950 3350 4800 3350
+Text Label 4650 3250 2    50   ~ 0
+VDD
+Text Label 5800 3250 0    50   ~ 0
+TMS
+Text Label 5800 3350 0    50   ~ 0
+TCK
+Wire Wire Line
+	5450 3250 5800 3250
+Text Label 4650 3350 2    50   ~ 0
+GND
+Wire Wire Line
+	4950 3550 4900 3550
+NoConn ~ 4900 3550
+Wire Wire Line
+	4950 3650 4900 3650
+NoConn ~ 4900 3650
+Wire Wire Line
+	5450 3350 5800 3350
+Text Label 5800 3450 0    50   ~ 0
+TDO
+Text Label 5800 3550 0    50   ~ 0
+TDI
+Text Label 5800 3650 0    50   ~ 0
+RST
+Wire Wire Line
+	5450 3450 5800 3450
+Wire Wire Line
+	5450 3550 5800 3550
+Wire Wire Line
+	5450 3650 5800 3650
+Text Label 4850 1950 2    50   ~ 0
+VDD
+Text Label 5550 1950 0    50   ~ 0
+VDD
+Wire Wire Line
+	5450 1950 5550 1950
+Wire Wire Line
+	4950 1950 4850 1950
+Text Label 5550 2050 0    50   ~ 0
+GND
+Wire Wire Line
+	5450 2050 5500 2050
+Wire Wire Line
+	5450 2150 5500 2150
+Wire Wire Line
+	5500 2150 5500 2250
+Wire Wire Line
+	5500 2250 5450 2250
+Wire Wire Line
+	5500 2250 5500 2350
+Wire Wire Line
+	5500 2350 5450 2350
+Connection ~ 5500 2250
+Wire Wire Line
+	5500 2350 5500 2450
+Wire Wire Line
+	5500 2450 5450 2450
+Connection ~ 5500 2350
+Wire Wire Line
+	5500 2450 5500 2550
+Wire Wire Line
+	5500 2550 5450 2550
+Connection ~ 5500 2450
+Wire Wire Line
+	5500 2550 5500 2650
+Wire Wire Line
+	5500 2650 5450 2650
+Connection ~ 5500 2550
+Wire Wire Line
+	5500 2650 5500 2750
+Wire Wire Line
+	5500 2750 5450 2750
+Connection ~ 5500 2650
+Wire Wire Line
+	5500 2750 5500 2850
+Wire Wire Line
+	5500 2850 5450 2850
+Connection ~ 5500 2750
+Wire Wire Line
+	5500 2150 5500 2050
+Connection ~ 5500 2150
+Connection ~ 5500 2050
+Wire Wire Line
+	5500 2050 5550 2050
+Text Label 4850 2650 2    50   ~ 0
+RST
+Text Label 4850 2150 2    50   ~ 0
+TDI
+Wire Wire Line
+	4850 2150 4950 2150
+Text Label 4850 2250 2    50   ~ 0
+TMS
+Wire Wire Line
+	4850 2250 4950 2250
+Text Label 4850 2350 2    50   ~ 0
+TCK
+Wire Wire Line
+	4850 2350 4950 2350
+Text Label 4850 2550 2    50   ~ 0
+TDO
+Wire Wire Line
+	4850 2550 4950 2550
+Wire Wire Line
+	4950 2850 4900 2850
+NoConn ~ 4900 2850
+Wire Wire Line
+	4950 2750 4900 2750
+NoConn ~ 4900 2750
+Wire Wire Line
+	4850 2650 4950 2650
+Wire Wire Line
+	4950 2050 4900 2050
+NoConn ~ 4900 2050
+Wire Wire Line
+	4950 2450 4900 2450
+NoConn ~ 4900 2450
+Wire Wire Line
+	4950 3450 4800 3450
+Wire Wire Line
+	4800 3450 4800 3350
+Connection ~ 4800 3350
+Wire Wire Line
+	4800 3350 4650 3350
+$EndSCHEMATC
